@@ -1,0 +1,49 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 36.06rem;
+	height: 22.48rem;
+	background: linear-gradient(#fff, #fff) padding-box,
+		linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) bottom/100%
+			border-box;
+	background-repeat: no-repeat;
+	border-radius: 0.625rem;
+	border: 0.1875rem solid transparent;
+	box-shadow: 0 0.25rem 0.875rem rgba(0, 0, 0, 0.15);
+	gap: 1.88rem;
+}
+
+.stars {
+	width: 15rem;
+}
+
+.card h1 {
+	font-size: 2.1875rem;
+	font-weight: 600;
+	line-height: 2.81rem;
+	color: #181818;
+	text-transform: capitalize;
+}
+.price {
+	display: flex;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.card h2 {
+	font-size: 1.875rem;
+	font-weight: 700;
+	line-height: 2.81rem;
+	color: #181818;
+}
+
+.card h3 {
+	font-size: 1.875rem;
+	font-weight: 500;
+	line-height: 2.81rem;
+	color: #181818;
+	opacity: 0.2;
+	text-decoration: line-through;
+}

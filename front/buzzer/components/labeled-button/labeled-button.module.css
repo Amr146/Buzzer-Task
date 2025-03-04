@@ -1,0 +1,32 @@
+.labeled-button {
+	border: 0.1875rem solid;
+	border-radius: 0.625rem;
+	border-color: #ffbb15;
+	display: flex;
+}
+
+.labeled-button-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	padding: 0.8125rem 3.125rem;
+	flex: 1;
+}
+
+.labeled-button.light p {
+	color: #000;
+}
+
+.labeled-button.dark p {
+	color: #fff;
+}
+
+.labeled-button:hover {
+	background-color: #ffbb15;
+}
+.labeled-button:hover p {
+	color: #000;
+}

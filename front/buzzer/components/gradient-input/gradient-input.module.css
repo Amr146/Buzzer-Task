@@ -1,0 +1,40 @@
+.gradient-input {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.4),
+		rgba(255, 255, 255, 0.2)
+	);
+	/* background: rgba(255, 255, 255, 0.168); */
+	backdrop-filter: blur(10px);
+	height: 4.375rem;
+	width: 19.1rem;
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	padding-left: 1.33rem;
+	border: none;
+	border-radius: 0.625rem;
+}
+
+.gradient-input input {
+	background: transparent;
+	border: none;
+	outline: none;
+	height: 1.5rem;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+
+.gradient-input input::placeholder {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+.gradient-input img {
+	width: 1.5rem;
+	height: 1.5rem;
+	object-fit: contain;
+}

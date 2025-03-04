@@ -1,0 +1,52 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: top;
+}
+
+.main {
+	grid-area: 1/1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card {
+	grid-area: 1/1;
+	z-index: 0;
+	margin-top: 32.625rem;
+	margin-bottom: auto;
+}
+
+.content-container {
+	padding: 3.125rem 3.125rem;
+	margin-top: 16.17rem;
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3.125rem;
+	padding: 0 12.5rem 0 12.5rem;
+}
+
+.content-h2 {
+	line-height: 1.375rem;
+	font-size: 1.75rem;
+	font-weight: 600;
+	margin-bottom: 1.875rem;
+	color: #ec362b;
+	text-transform: capitalize;
+}
+
+.content-p {
+	line-height: 1rem;
+	font-size: 1.56rem;
+	font-weight: 400;
+	margin-bottom: 1.875rem;
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: capitalize;
+}

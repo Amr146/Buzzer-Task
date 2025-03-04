@@ -1,0 +1,81 @@
+.layout-container {
+	display: flex;
+}
+
+.layout {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.layout-content {
+	padding-left: 12.5rem;
+	padding-top: 3.125rem;
+	display: flex;
+	gap: 6.25rem;
+	flex-direction: column;
+}
+.layout-image {
+	/* padding-left: 5rem; */
+	/* padding-top: 12.79rem; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.layout-image img {
+	width: 50rem;
+	height: 48.4rem;
+	object-fit: contain;
+}
+
+.content-h1 {
+	font-weight: 600;
+	font-size: 2.1875rem;
+	line-height: 2.8125rem;
+	margin-bottom: 1.875rem;
+	color: #000;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-p {
+	font-weight: 400;
+	font-size: 1.375rem;
+	line-height: 2rem;
+	margin-bottom: 3.125rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.content-input {
+	border: 0.0625rem solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.25rem;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1.5rem;
+	width: 29.625rem;
+	margin-bottom: 19.85rem;
+}
+.content-button {
+	margin-bottom: 3.125rem;
+	width: 29.625rem;
+
+}
+
+.content-input::placeholder {
+	color: #868686;
+}
+
+.content-link span {
+	color: #ec362b;
+	font-weight: 400;
+	font-size: 1.375rem;
+	line-height: 2rem;
+}

@@ -1,0 +1,67 @@
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: 'Cyntho Next';
+	src: url('/fonts/CynthoNextRegular.otf') format('opentype');
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'Cyntho Next';
+	src: url('/fonts/CynthoNextBold.otf') format('opentype');
+	font-style: bold;
+} */
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: 'cyntho Next';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: auto;
+}
+
+/* 1.25 dpr */
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	html {
+		font-size: 12.8px;
+	}
+}
+/* 1.5 dpr */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	html {
+		font-size: 10.66px;
+	}
+}
+/* 1.75 dpr */
+@media (-webkit-min-device-pixel-ratio: 1.75), (min-resolution: 168dpi) {
+	html {
+		font-size: 9.14px;
+	}
+}
+/* 2 dpr */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	html {
+		font-size: 8px;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

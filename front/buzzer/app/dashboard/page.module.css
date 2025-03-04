@@ -1,0 +1,41 @@
+.container {
+	max-width: 120rem;
+	display: flex;
+	padding: 8rem;
+	background-color: antiquewhite;
+}
+
+.aside {
+	width: 33.33%;
+	padding: 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: lightgrey;
+	border-radius: 0.25rem 5rem 0.25rem 0.25rem;
+}
+
+.aside-button {
+	border: none;
+	background-color: transparent;
+	border-radius: 0.25rem;
+	flex: 1;
+	cursor: pointer;
+}
+
+.aside-button:hover {
+	background-color: rgb(168, 168, 168);
+}
+
+.aside-p {
+	/* color: white; */
+	font-size: 1.5rem;
+}
+
+.content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 3rem 1rem;
+}
